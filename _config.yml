@@ -1,14 +1,22 @@
-title: ""
-description: ""
+title: "Carlos Ardila Patiño"
+description: "Portfolio made in 'cvless' Jekyll theme for a beautiful online CV"
 baseurl: ""
-url: ""
+url: "https://carlosardilap.github.io/"
 
-exclude:
-  - demo/
-  - cvless.gemspec
-  - LICENSE
-  - README.md
-  - screenshot.png
+taglong: Backend Developer
+
+# social media links
+social:
+  github: CarlosArdilaP
+  linkedin: ardilavene
+
+# author settings
+author:
+  name: Carlos Ardila
+  email: charles0145@protonmail.com
+address: Viña del Mar, Chile
+phone: +56 9 45578506
+
 
 plugins:
   - jekyll-feed
@@ -21,9 +29,6 @@ sass:
   style: compressed
   sourcemap: never
 
-feed:
-  path: atom.xml
-
 autopages:
   enabled: false
 
@@ -33,3 +38,12 @@ pagination:
   sort_reverse: true
   permalink: /:num/
   title: ":title &middot; Page :num"
+
+# build settings
+permalink: pretty
+exclude:
+  - docker-compose.yml
+  - LICENSE
+  - README.md
+
+parallel_localization: false
